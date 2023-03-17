@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import logo from './big.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <header>
+        <img src={logo}  alt="logo" width='200' heigh='200' />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        Technicall Challenge
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+
+      <div>
+        <p>Desarrolla una aplicación / componentes que muestre un listado donde :</p>
+        <div>
+        <ol>
+          <p> * Agregar elementos</p>
+          <p> * Eliminar elementos</p>
+          <p> * Buscar elementos en listado</p>
+        </ol>
+        </div>
+      </div>
     </div>
   );
 }
