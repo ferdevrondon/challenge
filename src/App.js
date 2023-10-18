@@ -10,17 +10,6 @@ function App() {
         Technicall Challenge
         </p>
       </header>
-
-      <div>
-        <p>Desarrolla una aplicación / componentes que muestre un listado donde :</p>
-        <div>
-        <ol>
-          <p> * Agregar elementos</p>
-          <p> * Eliminar elementos</p>
-          <p> * Buscar elementos en listado</p>
-        </ol>
-        </div>
-      </div>
     </div>
   );
 }
